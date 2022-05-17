@@ -1,18 +1,18 @@
 import React from 'react';
 
-import {SafeAreaView,StyleSheet} from 'react-native';
+import {SafeAreaView, StyleSheet} from 'react-native';
 import Navigation from './src/navigation/StackNavigator';
 
 export default function App() {
   return (
-   <SafeAreaView style={styles.root}>
+    <SafeAreaView style={styles.root}>
       <Navigation />
-   </SafeAreaView>
+    </SafeAreaView>
   );
-};
+}
 
 const styles = StyleSheet.create({
-  root : {
-    flex : 1
-  }
-})
+  root: {
+    flex: 1,
+  },
+});
